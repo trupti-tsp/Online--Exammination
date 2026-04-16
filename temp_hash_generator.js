@@ -1,6 +1,6 @@
 const bcrypt = require('bcrypt');
 
-const newPassword = 'admin123'; // <-- Change this to your desired password
+const newPassword = 'admin'; // <-- Change this to your desired password
 const saltRounds = 10;
 
 bcrypt.hash(newPassword, saltRounds, (err, hash) => {
